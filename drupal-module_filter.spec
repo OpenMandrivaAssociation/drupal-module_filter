@@ -43,3 +43,14 @@ rm -f %{buildroot}%{_var}/www/drupal/modules/%{modname}/*.txt
 %files
 %{_var}/www/drupal/modules/%{modname}
 %doc CHANGELOG.txt
+
+
+%changelog
+* Thu Aug 09 2012 Dmitry Mikhirev <dmikhirev@mandriva.org> 7.x.1.7-1
++ Revision: 813160
+- update to 7.x.1.7
+
+* Sat May 12 2012 Dmitry Mikhirev <dmikhirev@mandriva.org> 7.x.1.6-1
++ Revision: 798461
+- imported package drupal-module_filter
+
